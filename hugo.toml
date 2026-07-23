@@ -1,0 +1,48 @@
+baseURL = "https://AstonKevin.github.io/"
+languageCode = "zh-cn"
+title = "我的博客"
+theme = "PaperMod"
+
+enableEmoji = true
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  env = "production"
+  description = "记录学习与思考"
+  author = "AstonKevin"
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  UseHugoToc = true
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "欢迎来到我的博客 👋"
+    Content = "这里是我记录技术学习和生活感悟的地方。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/AstonKevin"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 20
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
