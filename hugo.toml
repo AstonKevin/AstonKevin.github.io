@@ -17,7 +17,7 @@ enableRobotsTXT = true
   ShowCodeCopyButtons = true
   ShowWordCount = true
   UseHugoToc = true
-  comments = false
+  comments = true
 
   [params.homeInfoParams]
     Title = "欢迎来到我的博客 👋"
